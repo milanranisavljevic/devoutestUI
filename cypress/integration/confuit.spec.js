@@ -37,9 +37,9 @@ describe('💡 CONDUIT SUITE', () => {
                     homePage.goToNewPost();
                 });
 
-                describe('Publish Article', () => {
+                describe(`💡 Publish Article "${article.title}"`, () => {
 
-                    it(`🔎 Verify New Post Input - ${article.title}`, () => {
+                    it(`🔎 Verify Input of New Post`, () => {
                         const newPostInputPage = new NewPostInput();
                         newPostInputPage
                             .getArticleTitleInput()
@@ -86,5 +86,9 @@ describe('💡 CONDUIT SUITE', () => {
             })
         })
     })
+
+    after('logout', () => {
+        cy.logout();
+    });
 
 });

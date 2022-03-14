@@ -13,6 +13,11 @@
 Cypress.Commands.add('getByPlaceholder', (placeholder) => {
     cy.get(`[placeholder="${placeholder}"]`)
 })
+
+Cypress.Commands.add('logout', () => {
+    cy.get(`a[href="#settings"]`).should('be.visible').click()
+    cy.contains('button', 'Or click here to logout.').should('be.visible').click()
+})
 //
 //
 // -- This is a child command --

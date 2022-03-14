@@ -10,5 +10,12 @@ declare namespace Cypress {
          */
         getByPlaceholder(selector: string): Chainable<any>
 
+        /**
+         * Logout
+         * @example
+         * cy.logout()
+         */
+         logout(): Chainable<any>
+
     }
 }
