@@ -1,0 +1,22 @@
+{
+    "articles": [
+        {
+            "title": "foo",
+            "about": "FUBAR",
+            "content": "bar",
+            "tags": "yo"
+        },
+        {
+            "title": "Title",
+            "about": "ArticleAbout",
+            "content": "go",
+            "tags": "go"
+        },
+        {
+            "title": "lol",
+            "about": "asldkjalskd",
+            "content": "bar",
+            "tags": "yo"
+        }
+    ]
+}

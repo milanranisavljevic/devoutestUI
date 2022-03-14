@@ -1,0 +1,23 @@
+{
+  "name": "devoutestui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milanranisavljevic/devoutestUI.git"
+  },
+  "author": "milan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milanranisavljevic/devoutestUI/issues"
+  },
+  "homepage": "https://github.com/milanranisavljevic/devoutestUI#readme",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "faker": "^5.5.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://react-redux.realworld.io/#/login",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "reporter": "cypress-mochawesome-reporter",
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    }
+}

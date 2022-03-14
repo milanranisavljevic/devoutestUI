@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "testuser@iptiq.com",
+      "password": "test1234"
+    },
+    {
+      "email": "testuser@iptiq.com",
+      "password": "test1234"
+    }
+  ]
+}
